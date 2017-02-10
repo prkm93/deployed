@@ -7,6 +7,13 @@ body{
   text-align: center;
   padding-top: 40vh;  /* vh is view height */
 }
+#landing-footer {
+  z-index: 1;        /* 1 means coming outwards . z index is used only when position is relative*/
+  position: relative;
+  text-align: center;
+  margin-top: auto;
+  padding-top: 40vh;  /* vh is view height */
+}
 #landing-header h1 {
   color: #fff;
 }
