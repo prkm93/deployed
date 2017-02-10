@@ -46,7 +46,7 @@ app.use(function(req, res, next){     // used for showing signed in as and wheth
     next();
 });
 
-seedDB();
+//seedDB();
 /*var campgrounds = [
             {name :"Heaven's Overpass", image :"https://farm5.staticflickr.com/4113/5193321637_f6cd908e17.jpg"},
             {name :"Hanging Rock", image :"https://images.unsplash.com/photo-1445308394109-4ec2920981b1?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=7de12efa9efd5d176511b6caf1c99e5a"},
