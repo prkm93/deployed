@@ -8,7 +8,7 @@ You can view the running application at https://protected-hollows-85414.herokuap
 How to run the application :-
 1. Download the clone.
 2. Please have nodejs and mongodb installed locally on your machine.
-3. On cmd and go to the directory having app.js.
+3. Open cmd and go to the directory having app.js.
 4. Run npm start. ( this will install the required npm modules).
 5. Setup mongodb on your system.
 6. Open new terminal and go to C:/mongodb/bin (or where your mongodb is installed).
@@ -18,7 +18,7 @@ How to run the application :-
 10. Go to browser at ://localhost:3000.
 
 Slight modification in code for running locally :-
-
-1. Comment line no 21(mongoose.connect("mongodb://yelpcampdb:password@ds147789.mlab.com:47789/yelpcamp");) and uncomment line no 19
+1. Open app.js.
+2. Comment line no 21(mongoose.connect("mongodb://yelpcampdb:password@ds147789.mlab.com:47789/yelpcamp");) and uncomment line no 19
    (mongoose.connect("mongodb://localhost/yelp_db_v7");). This will be running mongodb locally.
-1. Go to app.js and in line no 61 change "process.env.PORT" to "3000".
+3. In line no 61 change "process.env.PORT" to "3000".
